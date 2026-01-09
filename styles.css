@@ -1,0 +1,73 @@
+body {
+ background-color: #000000;
+ font-family: "nunito", sans-serif;
+ color: rgb(237,253,208)
+}
+
+div {
+    background-image: url("images/nightbackground.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;   
+    min-height: 100dvh; 
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+
+.date {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 0%;
+  max-width: 100%;
+  max-width: 600px;
+ 
+}
+
+p {
+
+font-size: clamp(12px, 5vw, 38px);
+text-align:center;
+margin-bottom: 0px;
+
+}
+
+.text{
+margin-left: 10%;
+margin-right: 10%;
+text-align:center;
+}
+
+#logo {
+  margin-top: 0%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width :30%;
+  max-width: 300px;
+  min-width: 100px;
+}
+
+#bridge {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width :100%;
+  max-width: 2000px;
+  margin-bottom: 0px;
+}
