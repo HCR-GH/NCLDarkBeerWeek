@@ -17,7 +17,14 @@ div {
     padding-bottom: 100px;
 }
 
+p {
+font-size: clamp(12px, 5vw, 38px);
+margin-bottom: 0px;
+}
 
+h2 {
+  color: rgb(250, 226, 180)
+}
 
 .center {
   display: block;
@@ -27,7 +34,6 @@ div {
   max-width: 800px;
 }
 
-
 .date {
   display: block;
   margin-left: auto;
@@ -35,15 +41,7 @@ div {
   width: 50%;
   margin-top: 0%;
   max-width: 100%;
-  max-width: 600px;
- 
-}
-
-p {
-
-font-size: clamp(12px, 5vw, 38px);
-margin-bottom: 0px;
-
+  max-width: 600px; 
 }
 
 .centertext{
