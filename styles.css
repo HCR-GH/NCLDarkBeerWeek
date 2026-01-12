@@ -1,7 +1,9 @@
 body {
  background-color: #000000;
  font-family: "nunito", sans-serif;
- color: rgb(237,253,208)
+ color: rgb(237,253,208);
+ font-size: clamp(22px, 5vw, 38px);
+
 }
 
 div {
@@ -18,13 +20,18 @@ div {
 }
 
 p {
-font-size: clamp(12px, 5vw, 38px);
 margin-bottom: 0px;
+}
+
+dd {
+   font-size: clamp(20px, 3vw, 32px);
+   color: rgb(250, 226, 180);
+
 }
 
 h2 {
   color: rgb(250, 226, 180);
-  font-size: clamp(18px, 7vw, 50px);
+  font-size: clamp(14px, 7vw, 50px);
 }
 
 .center {
@@ -55,6 +62,10 @@ text-align:center;
 margin-left: 10%;
 margin-right: 10%;
 text-align:left;
+}
+
+.beername {
+  font-weight: bold;
 }
 
 #logo {
