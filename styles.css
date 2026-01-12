@@ -23,7 +23,8 @@ margin-bottom: 0px;
 }
 
 h2 {
-  color: rgb(250, 226, 180)
+  color: rgb(250, 226, 180);
+  font-size: clamp(18px, 7vw, 50px);
 }
 
 .center {
