@@ -93,3 +93,7 @@ text-align:left;
   width :100%;
   max-width: 2000px;
 }
+
+#copyright {
+     font-size: clamp(12px, 1vw, 16px);
+}
